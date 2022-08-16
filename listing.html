@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="listing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div id="brand">
+            Zomato
+        </div>
+        <a href="/index.html">
+            <div class="homebutton">Home</div>
+        </a>
+        <div id="social">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="/listing/image/facebook.png" alt="fb" class="socialImg" />
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="/listing/image/Instagram.png" alt="fb" class="socialImg" />
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="/listing/image/youtube.png" alt="fb" class="socialImg" />
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="filterbox">
+                <!-- <span>Filters</span>
+                <hr> -->
+                <!-- <div class="Location">
+                    <h3><label for="cars">Select Location</label></h3>
+                    <div>
+                        <select name="Location">
+                            <option value="Delhi">Select</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Noida">Noida</option>
+                            <option value="Ghaziabad">Ghaziabad</option>
+                        </select>
+                    </div>
+                </div> -->
+                <div class="cuisinefilter">
+                    <div class="Chead"><b> Cuisine</b></div>
+                    <div class="radio">
+                        <input type="radio" name="Cuisine"> North Indian
+                    </div>
+                    <div class="radio">
+                        <input type="radio" name="Cuisine"> South Indian
+                    </div>
+                    <div class="radio">
+                        <input type="radio" name="Cuisine"> Chinese
+                    </div>
+                    <div class="radio">
+                        <input type="radio" name="Cuisine"> Fast food
+                    </div>
+                    <div class="radio">
+                        <input type="radio" name="Cuisine"> Sweets
+                    </div>
+                </div>
+                <hr>
+                <div class="costfilter">
+                    <div class="Chead"><b> Cost</b></div>
+                    <div class="radio">
+                        <input type="radio" name="Cost"> 100-299
+                    </div>
+                    <div class="radio">
+                        <input type="radio" name="Cost"> 300-599
+                    </div>
+                    <div class="radio">
+                        <input type="radio" name="Cost"> 600-999
+                    </div>
+                    <div class="radio">
+                        <input type="radio" name="Cost"> 1000-1499
+                    </div>
+                    <div class="radio">
+                        <input type="radio" name="Cost"> 1500+
+                    </div>
+                </div>
+                <hr>
+                <div class="sort">
+                    <div class="Chead"><b>Prices</b></div>
+                    <div id="">
+                        <input type="radio" name="Cost"> Low to High
+                    </div>
+                    <div>
+                        <input type="radio" name="Cost"> High to Low
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="contentbox">
+                <div id="fname">
+                    <input type="text" placeholder="Enter restaurant name" name="search">
+                    <button type="search"><i class="fa fa-search"></i></button>
+                </div>
+                <div class="span">
+                    <span>Result for: *******</span>
+                    <span>Number of Results: 5</span>
+                </div>
+                <div class="templates">
+                    <div class="imgtemp">
+                        <img src="/listing/image/northindian.avif" alt="northindian" class="temp-img-size">
+                    </div>
+                    <div class="texttemp">
+                        <h2 class="H2align">Kaake da dhaba</h2>
+                        <h4 class="H4align">North Indian</h4>
+                        <p class="fpara">Majnu ka tilla, New Delhi</p>
+                        <p class="fpara">Per Person Rs. 450</p>
+                        <div class="button">
+                            <button>Take Away</button>
+                            <button id="col_gr">Dine Out</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="templates">
+                    <div class="imgtemp">
+                        <img src="/listing/image/southindian.avif" alt="southindian" class="temp-img-size">
+                    </div>
+                    <div class="texttemp">
+                        <h2 class="H2align">Anna Madras Cafe</h2>
+                        <h4 class="H4align">South Indian</h4>
+                        <p class="fpara">Hauj khas, New Delhi</p>
+                        <p class="fpara">Per Person Rs. 450</p>
+                        <div class="button">
+                            <button>Take Away</button>
+                            <button id="col_gr">Dine Out</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="templates">
+                    <div class="imgtemp">
+                        <img src="/listing/image/chinese.avif" alt="Chinese" class="temp-img-size">
+                    </div>
+                    <div class="texttemp">
+                        <h2 class="H2align">Momo's Aunt</h2>
+                        <h4 class="H4align">Chinese Cousine</h4>
+                        <p class="fpara">Mandi House, New Delhi</p>
+                        <p class="fpara">Per Person Rs. 100</p>
+                        <div class="button">
+                            <button>Take Away</button>
+                            <button id="col_gr">Dine Out</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="templates">
+                    <div class="imgtemp">
+                        <img src="/listing/image/burgerbaba.avif" alt="burgerbaba" class="temp-img-size">
+                    </div>
+                    <div class="texttemp">
+                        <h2 class="H2align">Big Bite Cafe</h2>
+                        <h4 class="H4align">Cheat Food</h4>
+                        <p class="fpara">Sector-18, Noida</p>
+                        <p class="fpara">Per Person Rs. 300</p>
+                        <div class="button">
+                            <button>Take Away</button>
+                            <button id="col_gr">Dine Out</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="templates">
+                    <div class="imgtemp">
+                        <img src="/listing/image/mithaas.avif" alt="mithaas" class="temp-img-size">
+                    </div>
+                    <div class="texttemp">
+                        <h2 class="H2align">Mithaas</h2>
+                        <h4 class="H4align">Sweets</h4>
+                        <p class="fpara">Vasundhara, Ghaziabad</p>
+                        <p class="fpara">Per person Rs. 250</p>
+                        <div class="button">
+                            <button>Take Away</button>
+                            <button id="col_gr">Dine Out</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

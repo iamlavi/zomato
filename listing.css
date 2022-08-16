@@ -1,0 +1,213 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    overflow: hidden;
+    height: 55px;
+    background-color: #3b2632;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#brand{
+    color:#fff;
+    font-size:30px;
+    float:left;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.homebutton{
+    float: left;
+    color: #fff;
+    background-color: #2196F3;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10%;
+
+}
+#social{
+    float:right;
+    margin-top: 7px;
+    margin-right: 1%;
+}
+.socialImg{
+    height:42px;
+}
+.container{
+    width: 98vw;
+    display: flex;
+}
+
+@media only screen and (max-width: 820px) {
+    .container {
+        display:block;
+        width: fit-content;
+    }
+  } 
+
+.filterbox{
+    height: fit-content;
+    width: 20%;
+    margin: 20px 0px 0px 20px;
+    padding: 6px;
+    box-shadow: 0px 0px 5px grey;
+}
+@media only screen and (max-width: 820px) {
+    .filterbox {
+        width: 94%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+  }
+
+/* @media only screen and (max-width: 600px) {
+    .filterbox {
+        width: 94%;
+        display: inline-block;
+    }
+  }  */
+
+
+
+.Location h3{
+    margin: 11px;
+}
+
+.Location select{
+    width: 90%;
+    margin: 10px;
+    padding: 3px;
+}
+
+.filterbox span{
+    font-size: x-large;
+    /* font-size: 40px; */
+    margin: 9px;
+}
+.Chead{
+    font-size: 20px;
+    margin: 9px;
+    text-align: center;
+}
+
+.radio{
+    margin-left: 4px;
+}
+
+hr{
+    color: grey;
+    margin: 4px;
+}
+
+.contentbox{
+    width: 80%;
+    margin: 20px;
+    display: inline-block;
+    box-shadow: 0px 0px 5px grey;
+}
+
+@media only screen and (max-width: 820px) {
+    .contentbox {
+        width: 94%;
+    }
+  } 
+
+#fname input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+#fname button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+.span{
+    padding: 8px;
+    margin-top: 54px;
+    display: block;
+}
+.span span{
+    display: block;
+}
+.templates{
+    height: 250px;
+    width: 94%;
+    box-shadow: 0px 0px 5px grey;
+    border-radius: 8px;
+    float: left;
+    margin: 11px;
+}
+.imgtemp{
+    height: 90%;
+    width: 35%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+.fpara{
+    margin: 20px;
+}
+
+.button{
+    margin-top: 20px;
+}
+
+.button button{
+    background-color: blue;
+    font-size: 16px;
+    color: white;
+    padding: 6px;
+}
+
+#col_gr{
+    background-color: green;
+}
+
+.temp-img-size{
+height: 100%;
+width: 100%;
+border-radius: 10px;
+}
+
+.temp-img-size:hover{
+    box-shadow: 7px 7px 30px blue;
+    /* transform: scale(1.5) */
+}
+.texttemp{
+    /* border: 2px solid black; */
+    height: 90%;
+    width: 60%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+
+.H2align{
+    /* margin: 10px;
+    position: relative;
+    left: 18px; */
+    color: blue;
+}
+.H4align{
+    color: grey;
+    margin-top: 12px;
+}
